@@ -1,10 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>$Title$</title>
+    <meta charset="UTF-8">
+    <title>Title</title>
 </head>
 <body>
-$END$
+  <h1>ODER FORM</h1>
+  <form action="sumit">
+    <p>
+      What  would you like to buy?
+    </p>
+    <select name="buy" id="buy">
+      <option value="Toyota">Toyota</option>
+      <option value="Huyndai">Huyndai</option>
+      <option value="Bò điên">Bò điên</option>
+    </select>
+    <p>
+      How many would you like to oder?
+    </p>
+    <input name="gia" type="radio" value="1-$10" >1-$10<br>
+    <input name="gia" type="radio" value="2-$20" >2-$20<br>
+    <input name="gia" type="radio" value="3-$25" >3-$25
+    <p>Name <span style="color: red;">*</span></p>
+    <input type="text" name="Firstname" placeholder="Firstname" size="15">
+    <input type="text" name="Lastname" placeholder="Lastname" size="15">
+    <P>
+      Email
+    </P>
+    <input type="text" size="40">
+    <p>
+      Phone Number
+    </p>
+    <input type="text" name="phone1" size="5"> -
+    <input type="text" name="phone2" size="5"> -
+    <input type="text" name="phone3" size="5">
+    <p><input type="button" name="btSumbit" value="sumit"></p>
+  </form>
 </body>
 </html>
